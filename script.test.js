@@ -59,3 +59,17 @@ describe('translate', () => {
         expect(translate('Dinosaur')).toEqual('inosaurday');
     });
 })
+
+
+
+//in class example below
+
+// describe('translate', function() {
+//     //words starting with different vowels
+//     test('translate apple to appleway', function() {
+//         expect(translate('apple')).toBe('appleway');
+//     });
+//     test('translate else to elsesay', () => {
+//         expect(translate('else')).toBe('elseway');
+//     })
+// })

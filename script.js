@@ -49,3 +49,35 @@ module.exports = {
 //         }
 
 
+
+// //in class example below
+// function translate(string) {
+//     string = string.toLowerCase();
+    
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+//     if(vowels.includes(string.charAt(0))) {
+//         return `${string}way`
+//     } else {
+//         //look for first vowel
+//         let consonantSubString = '';
+//         //loop for every character in string
+//         for (let i = 0; i < string.length; i++) {
+//             //if the character at this index is a vowel
+//             if(vowels.includes(string.charAt(i))) {
+//                 string = `${string.slice(i)}${consonantSubString}ay`
+
+//                 break;
+//             } else {
+//                 //letter is consonant, add it to sub string
+//                 consonantSubString += string.charAt(i);
+//             }
+//         }
+//         return string;
+        
+//     }
+// }
+
+// module.exports = {
+//     translate,
+// }
